@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sit725-2024-t1-prac3</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">sit725-2024-t1-prac3</a>
+    </div>
+  </nav>
+
+  <!-- Main Section -->
+  <main class="container">
+    <h1>Welcome to Cyber Guard</h1>
+    <p>This is cyber Guard the plartform to help you with cybersecurity solutions</p>
+    <img src="/images/Hero.png" alt="Image">
+    <button id="modal-trigger" class="btn waves-effect waves-light modal-trigger" data-target="modal1">Click Me</button>
+  </main>
+
+  <!-- Modal Structure -->
+<div id="modal1" class="modal modal-fixed-footer">
+  <div class="modal-content">
+    <h4>Submit Form</h4>
+    <form id="submit-form">
+      <div class="input-field">
+        <input id="first_name" type="text" class="validate" autocomplete="given-name">
+        <label for="first_name">First Name</label>
+      </div>
+      <div class="input-field">
+        <input id="last_name" type="text" class="validate" autocomplete="family-name">
+        <label for="last_name">Last Name</label>
+      </div>
+      <div class="input-field">
+        <input id="password" type="password" class="validate" autocomplete="new-password">
+        <label for="password">Password</label>
+      </div>
+      <div class="input-field">
+        <input id="email" type="email" class="validate" autocomplete="email">
+        <label for="email">Email</label>
+      </div>
+      <div class="row center-align">
+        <a class="waves-effect waves-light btn" id="formSubmit">Submit</a>
+      </div>
+    </form>
+    
+  </div>
+  
+</div>
+
+
+  <!-- Card Section -->
+  <section class="card-section container">
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="/images/application.png" alt="Card Image">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Application Security</span>
+            <p>Application security refers to the measures taken to protect software applications from malicious attacks and data theft.</p>
+            <!-- Three dots link -->
+            <a href="https://en.wikipedia.org/wiki/Application_security" class="card-more-icon"><i class="material-icons">more_horiz</i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="/images/network.png" alt="Card Image">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Network Security</span>
+            <p>Network security protects and defends online systems, networks, and programs from digital attacks.</p>
+            <!-- Three dots link -->
+            <a href="https://en.wikipedia.org/wiki/Network_security" class="card-more-icon"><i class="material-icons">more_horiz</i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="/images/cloud.png" alt="Card Image">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Cloud Security</span>
+            <p>Cloud security is a form of computer security that protects cloud support services from malicious attacks.</p>
+            <!-- Three dots link -->
+            <a href="https://en.wikipedia.org/wiki/Cloud_computing_security" class="card-more-icon"><i class="material-icons">more_horiz</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

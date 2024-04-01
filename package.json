@@ -1,0 +1,26 @@
+{
+  "name": "sit725-2024-t1-prac3",
+  "version": "1.0.0",
+  "description": "Simple Web design with navbar ,main section with an image, a click me button, and a card section with three cards each having an image a title and infomation.",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veric01/sit725-2024-t1-prac3.git"
+  },
+  "author": "Victor Mutisya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veric01/sit725-2024-t1-prac3/issues"
+  },
+  "homepage": "https://github.com/veric01/sit725-2024-t1-prac3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "save": "^2.9.0"
+  }
+}
+
+
