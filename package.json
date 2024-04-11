@@ -1,7 +1,7 @@
 {
-  "name": "sit725-2024-t1-prac3",
+  "name": "sit725-2024-t1-prac4",
   "version": "1.0.0",
-  "description": "Simple Web design with navbar ,main section with an image, a click me button, and a card section with three cards each having an image a title and infomation.",
+  "description": "Simple Web design with navbar ,main section with an image, a click me button, and a card section with three cards each having an image a title and infomation. In this prac I will intergrate Mongodb",
   "main": "index.html",
   "scripts": {
     "start": "node server.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/veric01/sit725-2024-t1-prac3.git"
+    "url": "git+https://github.com/veric01/sit725-2024-t1-prac4.git"
   },
   "author": "Victor Mutisya",
   "license": "ISC",
@@ -19,8 +19,7 @@
   "homepage": "https://github.com/veric01/sit725-2024-t1-prac3#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongodb": "^6.5.0",
     "save": "^2.9.0"
   }
 }
-
-
