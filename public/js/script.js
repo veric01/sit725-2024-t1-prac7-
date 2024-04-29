@@ -1,6 +1,17 @@
 $(document).ready(function() {
   $('.modal').modal();
 
+  const socket = io();
+
+  socket.on('topic created', (topic) => {
+    console.log('New topic created:', topic);
+  });
+
+  // Listen for the 'number' event from the server
+  socket.on('number', (msg) => {
+    console.log('Random number:', msg);
+  });
+
   $('#formSubmit').click(() => {
     submitForm();
   });
